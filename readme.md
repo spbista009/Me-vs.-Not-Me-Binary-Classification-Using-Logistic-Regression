@@ -1,9 +1,15 @@
 # Me vs. Not-Me Binary Classification Using Logistic Regression
 
 ## Overview
-This project originated as a personal endeavor during my initial exploration into machine learning. The goal was to apply fundamental concepts by implementing a simple binary classification task using logistic regression. Specifically, I wanted to experiment with classifying images of myself versus non-self images to observe the performance and limitations of this basic model. This project provided a hands-on opportunity to deepen my understanding of logistic regression and its application in image-based classification tasks.
+This project originated as a personal endeavor during my initial exploration into machine learning. The goal was to apply fundamental concepts 
+by implementing a simple binary classification task using logistic regression. Specifically, I wanted to experiment with classifying images of 
+myself versus non-self images to observe the performance and limitations of this basic model. This project provided a hands-on opportunity to 
+deepen my understanding of logistic regression and its application in image-based classification tasks.
 
-This project involves building and evaluating a binary classification model using the logistic regression function to distinguish between "me" (collected image of me) and "not-me" (images that do not contain my images, such as a dog or other persons). Logistic regression is a simple yet powerful algorithm suitable for binary classification problems, making it an effective starting point for understanding the basics of machine learning.
+This project involves building and evaluating a binary classification model using the logistic regression function to distinguish between "me" 
+(collected image of me) and "not-me" (images that do not contain my images, such as a dog or other persons). Logistic regression is a simple yet
+ powerful algorithm suitable for binary classification problems, making it an effective starting point for understanding the basics of machine 
+ learning.
 
 ## Project Structure
 - `notebooks/`: Jupyter notebooks that outline data exploration, preprocessing, model training, and evaluation.
@@ -13,23 +19,6 @@ This project involves building and evaluating a binary classification model usin
 - **Binary Classification**: Classifies input images as either "me" or "not-me."
 - **Logistic Regression**: Utilizes the logistic function to predict the probability of the input belonging to the "me" class.
 - **Model Evaluation**: Includes metrics such as accuracy, precision, recall, and ROC-AUC score for comprehensive model performance analysis.
-
-## Installation and Setup
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/me-notme-classification.git
-    cd me-notme-classification
-    ```
-
-2. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the Jupyter notebook or script:
-    ```bash
-    jupyter notebook notebooks/me_notme_classification.ipynb
-    ```
 
 ## Data Preparation
 - The dataset were  structured into separate folders for "Training dataset" and "Test dataset" . Each folder consist of  within "me" and "not me" directory. Due to privacy considerations, the dataset has not been uploaded online.
